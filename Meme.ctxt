@@ -1,2 +1,6 @@
 #BlueJ class context
-numComments=0
+comment0.params=platform\ yearOfCreation
+comment0.target=Meme(java.lang.String,\ int)
+comment1.params=
+comment1.target=java.lang.String\ getPlatform()
+numComments=2
