@@ -19,4 +19,9 @@ public class Meme extends Media
     public void setText(String text){
         this.text = text;
     }
+    
+    @Override
+    public String toString(){
+        return super.toString() + text;
+    }
 }

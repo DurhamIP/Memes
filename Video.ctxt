@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=runningTime\ platform\ yearOfCreation
+comment0.target=Video(int,\ java.lang.String,\ int)
+comment1.params=
+comment1.target=int\ getRunningTime()
+comment2.params=runningTime
+comment2.target=void\ setRunningTime(int)
+numComments=3

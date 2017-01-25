@@ -16,4 +16,6 @@ comment6.params=
 comment6.target=int\ getYear()
 comment7.params=year
 comment7.target=void\ setYear(int)
-numComments=8
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

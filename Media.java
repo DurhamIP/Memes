@@ -49,5 +49,9 @@ public class Media
     public void setYear(int year){
         this.year = year;
     }
+    
+    public String toString(){
+        return year + ": from " + platformOfOrigin; 
+    }
 
 }
