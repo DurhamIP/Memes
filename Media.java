@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Media
+public abstract class Media
 {
     private boolean isItFunny;
     private String platformOfOrigin;
@@ -53,5 +53,7 @@ public class Media
     public String toString(){
         return year + ": from " + platformOfOrigin; 
     }
+    
+    public abstract String thumbnail();
 
 }

@@ -13,6 +13,10 @@ public class Video extends Media
 	return runningTime;
     }
 
+    public String thumbnail(){
+        return "Video lasting " + runningTime;
+    }
+    
     public void setRunningTime(int runningTime){
 	this.runningTime = runningTime;
     }

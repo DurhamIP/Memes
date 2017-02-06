@@ -16,6 +16,10 @@ public class Meme extends Media
         return text;
     }
 
+    public String thumbnail(){
+        return text;
+    }
+    
     public void setText(String text){
         this.text = text;
     }
