@@ -26,6 +26,6 @@ public class Meme extends Media
     
     @Override
     public String toString(){
-        return super.toString() + text;
+        return super.toString() + " " + text + "!";
     }
 }

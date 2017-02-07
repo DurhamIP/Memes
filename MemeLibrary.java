@@ -23,8 +23,8 @@ public class MemeLibrary
         memes.add(m);
     }
     
-    public static void test(){
-        Meme m = new Meme("hello", "twitter", 2017);
+    public static void main(String[] args){
+        Meme m = new Meme(args[0], args[1], 2017);
         MemeLibrary ml = new MemeLibrary();
         ml.addMedia(m);
         System.out.println(ml);
