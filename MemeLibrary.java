@@ -24,7 +24,7 @@ public class MemeLibrary
     }
     
     public static void main(String[] args){
-        Meme m = new Meme(args[0], args[1], 2017);
+        Meme m = new Meme(args[0], args[1], new Integer(args[2]));
         MemeLibrary ml = new MemeLibrary();
         ml.addMedia(m);
         System.out.println(ml);

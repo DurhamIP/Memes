@@ -14,8 +14,11 @@ public abstract class Media
     /**
      * Constructor for objects of class Media
      */
-    public Media(String platform, int yearOfCreation)
+    public Media(String platform, int yearOfCreation) throws BadYearException
     {
+	if(yearOfCreation<2000){
+	    throw new BadYearException("How old actually are you?");
+	}
         platformOfOrigin = platform;
         year = yearOfCreation;
         isItFunny = false;
